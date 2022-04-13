@@ -2,12 +2,14 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
     "lerna": "^4.0.0"
   },
   "workspaces": [
     "packages/*"
   ],
-	"publishConfig": {
+  "publishConfig": {
     "access": "public"
   }
 }
