@@ -11,5 +11,13 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+	"scripts" : {
+    "commit": "git cz"
+  },
+	"config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
   }
 }
