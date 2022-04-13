@@ -8,6 +8,7 @@
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "standard-version": "^9.3.2",
     "yorkie": "^2.0.0"
   },
   "workspaces": [
@@ -17,7 +18,8 @@
     "access": "public"
   },
   "scripts": {
-    "commit": "git cz"
+    "commit": "git cz",
+    "release": "standard-version"
   },
   "config": {
     "commitizen": {
