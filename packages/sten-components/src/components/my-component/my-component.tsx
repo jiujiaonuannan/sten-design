@@ -32,6 +32,7 @@ export class MyComponent {
     return (
       <div>
         <button onClick={() => (this.num += 1)}>add</button>Hello, World! I'm {this.getText()}, number is {this.num}
+        <sten-button>你好</sten-button>
       </div>
     );
   }
